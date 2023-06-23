@@ -5,7 +5,6 @@ describe('Header', () => {
 
   test('should show default header if no prop passed', () => {
     render(<Header/>);
-    // const headerText = screen.getByText(/default Header/i);
     const headerText = screen.getByRole("heading", {name: /default Header/i});
     expect(headerText).toBeInTheDocument();
   });

@@ -15,11 +15,4 @@ describe("FollowersList", () => {
     const followerElem = await screen.findByTestId('follower-item-0');
     expect(followerElem).toBeInTheDocument();
   });
-  
-
-  // it("should render error message if no data", async () => {
-  //   render(<MockFollowerList />);
-  //   const errorElem = screen.getByText(/No Records Found/i);
-  //   expect(errorElem).toBeInTheDocument();
-  // });
 });

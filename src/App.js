@@ -1,8 +1,8 @@
 import './App.css';
 import Banner from './components/Banner/Banner';
 import { Switch, Route } from "react-router-dom"
-import TodoPage from './pages/TodoPage/TodoPage';
-import FollowersPage from './pages/FollowersPage/FollowersPage';
+import TodoPage from './pages/TodoPage';
+import FollowersPage from './pages/FollowersPage';
 
 function App() {
   return (

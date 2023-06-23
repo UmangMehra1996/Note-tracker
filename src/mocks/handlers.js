@@ -73,14 +73,5 @@ export const handlers = [
     return res(
       ctx.json(usersData)
     );
-  }),
-
-//   rest.get("https://randomuser1.me/api", (req, res, ctx) => {
-//     return res(
-//         ctx.status(400),
-//         ctx.json({
-//           error: "No Records Found",
-//         })
-//       );
-//   }),
+  })
 ];

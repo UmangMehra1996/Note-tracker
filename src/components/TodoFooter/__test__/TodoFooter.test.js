@@ -15,7 +15,6 @@ const MockFooter = ({numberOfIncompleteTasks}) => {
 describe('TodoFooter', () => {
 
   it('should render correct task (singular)', () => {
-    // AAA Arrange Act Assert
     render(<MockFooter numberOfIncompleteTasks={1}/>);
 
     const paragraphElement = screen.getByText(/1 task left/);
